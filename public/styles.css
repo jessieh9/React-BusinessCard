@@ -1,7 +1,111 @@
 .app {
     background-color: #1A1B20;
     height: 100vh;
-    /* margin: 0px; */
-    width: 30%;
+    width: 28%;
     margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", "sans serif";
+}
+
+.profile {
+    height: 430px;
+    margin-bottom: 15px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+.position {
+    font-family: "Inter", "sans serif";
+    font-weight: 500;
+    color: #A48470;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    margin: 30px 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email--btn,
+.linkedin--btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.email--btn {
+    background-color: white;
+    color: black;
+}
+
+.linkedin--btn {
+    background-color: #5094DF;
+    color: white;
+}
+
+.email,
+.linkedin {
+    height: 14px;
+    margin-right: 10px;
+}
+
+footer {
+    padding-left: 50px; 
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    padding-bottom: 20px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.description,
+.subtitle {
+    width: 90%;
+    margin-left: auto;
+}
+
+.subtitle {
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-top: 1px;
+    line-height: 23px;
 }
